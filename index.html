@@ -7,18 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Conheça Rick and Morty</title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <main>
             <section>
                 <img alt="imagem com o Rick fazendo careta no rosto do Morty" src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2019/11/rick-and-morty-season-5-ideas-00.jpg">
                 <ul id="detalhes-container">
-                    <li id=nome>Nome: </li>
-                    <li id=especie>Espécie: </li>
-                    <li id=status>Esta vivo? </li>
+                    <li> Nome: <p id="nome"></p> </li>
+                    <li> Especie: <p id="especie"></p> </li>
+                    <li> Esta vivo? : <p id="status"></p> </li>
                 </ul>
-                <button>Conheça um Personagem Rick And Morty</button>
+                <button id="botao">Conheça um Personagem Rick And Morty</button>
             </section>
         </main>
     </body>
